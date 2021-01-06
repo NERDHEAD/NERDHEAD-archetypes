@@ -4,7 +4,7 @@ https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
 
 # Eclipse
 
-* New - Project - Maven Project - ... 
+       * New - Project - Maven Project - ... 
 
        - "Select an Archetype"  - Catalog ( Configure ) Click
        
