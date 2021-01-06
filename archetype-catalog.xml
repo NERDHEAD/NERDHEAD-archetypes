@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+  <archetypes>
+    <archetype>
+      <groupId>com.nerdhead</groupId>
+      <artifactId>nerdhead-archetype-webapp-custom-archetype</artifactId>
+      <version>1.0.0</version>
+      <description>nerdhead-archetype-webapp-custom-archetype</description>
+      <repository>https://nerdhead.github.io/NERHEAD-archetypes</repository>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
