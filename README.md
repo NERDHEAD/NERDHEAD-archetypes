@@ -27,8 +27,14 @@ https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
             
 * setting remote Catalog
       - find catalog: C:\Users\"USER_NAME"\.m2\repository\archetype-catalog.xml
+      
       - find archetype: C:\Users\"USER_NAME"\.m2\repository\"GROUP ID"\"PROJECT NAME"
+      
       - edit catalog :
+      
             - add <repository>https://"GIT_NICK_NAME".github.io/"REPOSITORY_NAME"</repository>
+            
       - create branch name : gh-pages
+      
       - add catalog, archetype
+      
