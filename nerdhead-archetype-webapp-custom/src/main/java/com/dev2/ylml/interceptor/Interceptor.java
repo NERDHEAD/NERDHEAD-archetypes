@@ -26,8 +26,8 @@ public class Interceptor extends HandlerInterceptorAdapter{
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
-		/*
-		 * logger.info("😀 인터셉터 시작"); try { if
+		logger.info("Interceptor:preHandle has run");
+		 /* logger.info("😀 인터셉터 시작"); try { if
 		 * (request.getSession().getAttribute("mem")==null) {
 		 * response.sendRedirect("./loginform.do"); return false; } } catch (Exception
 		 * e) { logger.info("😀 인터셉터야 이름 확인해봐"); e.printStackTrace(); }
@@ -54,7 +54,6 @@ public class Interceptor extends HandlerInterceptorAdapter{
 	@Override
 	public void afterConcurrentHandlingStarted(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
-		// TODO Auto-generated method stub
 		super.afterConcurrentHandlingStarted(request, response, handler);
 	}
 
