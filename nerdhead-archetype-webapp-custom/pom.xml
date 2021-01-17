@@ -24,10 +24,17 @@
 		<log4j>1.2.17</log4j>
 		<aspect>1.9.5</aspect>
 		<security.version>4.0.1.RELEASE</security.version>
+		<aphache-poi>4.0.1</aphache-poi>
 	</properties>
 
 
 	<dependencies>
+		<!-- httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version>
+		</dependency>
 		<!-- spring framework -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -146,12 +153,12 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>4.1.2</version>
+			<version>${aphache-poi}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>4.1.2</version>
+			<version>${aphache-poi}</version>
 		</dependency>
 
 		<!-- XML스키마를 자바클래스로 생성하는 라이브러리 -->
