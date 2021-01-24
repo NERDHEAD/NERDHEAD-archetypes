@@ -58,5 +58,17 @@
       <description>1.3.3 update: xmlbeans : version 3.1.0 -> 3.0.2 (conflict)</description>
       <repository>http://nerdhead.github.io/NERDHEAD-archetypes</repository>
     </archetype>
+
+
+
+
+
+    <archetype>
+      <groupId>com.nerdhead.maven.archetype</groupId>
+      <artifactId>nerdhead-archetype-webapp</artifactId>
+      <version>1.0.0</version>
+      <description>1.0.0 Release : maven+springFrame with standard settings for use easy</description>
+      <repository>http://nerdhead.github.io/NERDHEAD-archetypes</repository>
+    </archetype>
   </archetypes>
 </archetype-catalog>
