@@ -70,5 +70,15 @@
       <description>1.0.0 Release : maven+springFrame with standard settings for use easy</description>
       <repository>http://nerdhead.github.io/NERDHEAD-archetypes</repository>
     </archetype>
+
+
+
+        <archetype>
+      <groupId>com.nerdhead</groupId>
+      <artifactId>NERDHEAD-archetype-RESTful</artifactId>
+      <version>1.0.0</version>
+      <description>NERDHEAD-archetype-RESTful pre-release</description>
+      <repository>http://nerdhead.github.io/NERDHEAD-archetypes</repository>
+    </archetype>
   </archetypes>
 </archetype-catalog>
